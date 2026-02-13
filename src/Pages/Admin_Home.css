@@ -1,0 +1,14 @@
+.dashboard-container {
+  padding: 24px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  flex: 1;
+  min-width: 250px;
+}

@@ -1,0 +1,190 @@
+.userlist-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.userlist-title {
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.search-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem 3rem 1rem 1.5rem;
+  font-size: 1rem;
+  border: 2px solid #34495e;
+  border-radius: 8px;
+  background: white;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  color: #34495e;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #2c3e50;
+  box-shadow: 0 0 0 3px rgba(52, 73, 94, 0.1);
+}
+
+.clear-btn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.clear-btn:hover {
+  background: #c0392b;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.no-results {
+  text-align: center;
+  color: #e74c3c;
+  font-size: 1.1rem;
+  padding: 1rem;
+  background: rgba(231, 76, 60, 0.1);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.table-wrapper {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.MuiTableHead-root {
+  background: linear-gradient(135deg, #2c3e50, #34495e) !important;
+}
+
+.MuiTableHead-root .MuiTableCell-root {
+  color: white !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+  padding: 1.5rem 1rem !important;
+  border-bottom: none !important;
+}
+
+.MuiTableBody-root .MuiTableRow-root {
+  transition: all 0.3s ease !important;
+}
+
+.MuiTableBody-root .MuiTableRow-root:hover {
+  background-color: #f8f9fa !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.MuiTableBody-root .MuiTableCell-root {
+  padding: 1.2rem 1rem !important;
+  font-size: 1rem !important;
+  border-bottom: 1px solid #e9ecef !important;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  margin-left: 0.5rem;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}
+
+.edit-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.edit-btn:hover {
+  background: #2980b9;
+  transform: scale(1.05);
+}
+
+.save-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.save-btn:hover {
+  background: #229954;
+  transform: scale(1.05);
+}
+
+.cancel-btn {
+  background: #95a5a6;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  margin-left: 0.5rem;
+}
+
+.cancel-btn:hover {
+  background: #7f8c8d;
+  transform: scale(1.05);
+}
+
+.MuiTableCell-root input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.status-online {
+  color: #27ae60;
+  font-weight: 600;
+}
+
+.status-offline {
+  color: #e74c3c;
+  font-weight: 600;
+}

@@ -1,0 +1,83 @@
+.login-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.login-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.login-container select {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+  color: #e0e0e0;
+  cursor: pointer;
+  
+}
+
+.login-container select option[value=""] {
+  color: #999;
+}
+
+.login-container select:invalid {
+  color: #999;
+}
+
+.login-container select:valid {
+  color: #2c3e50;
+}
+
+.login-container input:focus,
+.login-container select:focus {
+  outline: none;
+  border-color: #2c3e50;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.login-container button:hover {
+  background-color: #34495e;
+}
+
+.login-container p {
+  text-align: center;
+  color: #e74c3c;
+  margin-top: 1rem;
+  font-weight: bold;
+}
