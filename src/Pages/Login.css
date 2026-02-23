@@ -35,15 +35,15 @@
   font-size: 1rem;
   box-sizing: border-box;
   transition: border-color 0.3s ease;
-  color: #e0e0e0;
+  color: #2c3e50;
   cursor: pointer;
-  
 }
 
 .login-container select option[value=""] {
   color: #999;
 }
 
+/* For browsers that support :invalid/:valid on select */
 .login-container select:invalid {
   color: #999;
 }
